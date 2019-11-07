@@ -2,11 +2,11 @@
 Testing framework using WebdriverIO, Mocha, Chai and JavaScript
 
 # Run Tests
-Run all tests: 
-<b>npm test</b> 
-Run specific suites: 
-<b>npm test -- --suite regression</b>
-<b>npm test -- --suite contactus</b>
+<b>Run all tests:</b> <br>
+npm test <br><br> 
+<b>Run specific suites:</b> <br>
+npm test -- --suite regression <br>
+npm test -- --suite contactus <br>
 
 
 
