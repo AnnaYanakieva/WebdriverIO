@@ -28,6 +28,7 @@
     "@wdio/sync": "^5.15.1",
     "chai": "^4.2.0",
     "chromedriver": "^77.0.0",
+    "del": "^5.1.0",
     "mocha": "^6.2.2",
     "selenium-standalone": "^6.16.0",
     "wdio-chromedriver-service": "^5.0.2",

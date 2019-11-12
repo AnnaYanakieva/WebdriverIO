@@ -1,0 +1,41 @@
+{
+  "ca2b8d1cb76c0d562805957ede84df01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10aa78b473dae339",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573550407266,
+        "stop" : 1573550409137,
+        "duration" : 1871
+      }
+    } ]
+  },
+  "150c8f0115fdf6d818a33e4e783c7e7c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cd6d94184cd653f7",
+      "status" : "failed",
+      "statusDetails" : "expected 'http://www.webdriveruniversity.com/Contact-Us/contactus.html' to equal 'http://www.webdriveruniversity.com/Contact-Us/contactus.htmla'",
+      "time" : {
+        "start" : 1573550406352,
+        "stop" : 1573550407265,
+        "duration" : 913
+      }
+    } ]
+  }
+}

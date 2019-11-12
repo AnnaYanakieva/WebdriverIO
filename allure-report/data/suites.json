@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Home Page Tests:",
+    "children" : [ {
+      "name" : "should check that the title and the URL on the contact us are correct",
+      "uid" : "cd6d94184cd653f7",
+      "parentUid" : "c3259efaafcecbd80e13f52185d31d2d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1573550406352,
+        "stop" : 1573550407265,
+        "duration" : 913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should navigate to the contact us page and submit the form successfuly",
+      "uid" : "10aa78b473dae339",
+      "parentUid" : "c3259efaafcecbd80e13f52185d31d2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573550407266,
+        "stop" : 1573550409137,
+        "duration" : 1871
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c3259efaafcecbd80e13f52185d31d2d"
+  } ]
+}
