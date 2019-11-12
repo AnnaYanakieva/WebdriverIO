@@ -10,7 +10,8 @@ npm test -- --suite contactus <br>
 
 <b>Reporting:</b>
 <br>
-<b>Allure report:</b> allure generate [allure_output_dir] --clean && allure open <br>
+<b>Allure report:</b>
+<br>allure generate [allure_output_dir] --clean && allure open <br>
 //example: allure generate /home/anna/Documents/webdriverio-v5/allure-results --clean && allure open
 
 
