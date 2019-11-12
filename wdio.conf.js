@@ -142,7 +142,7 @@ exports.config = {
     reporterOptions: {
         allure: {
             outputDir: './allure-results',
-            disableWebdriverStepsReporting: true,
+            disableWebdriverStepsReporting: false,
             disableWebdriverScreenshotsReporting: false,
         }
     },
@@ -249,8 +249,11 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed }) {
-    // },
+    afterTest: function (test) {
+        if (test.error !== undefined) {
+            browser.takeScreenshot();
+        }
+    },
 
 
     /**
@@ -275,10 +278,10 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that ran
      */
-    after: function (result, capabilities, specs) {
-        let name = 'ERROR-chrome' + Date.now();
-        browser.saveScreenshot(`./errorShots/${name}.png`);
-    },
+    // after: function (result, capabilities, specs) {
+    //     let name = 'ERROR-chrome-' + Date.now();
+    //     browser.saveScreenshot(`./errorShots/${name}.png`);
+    // },
     /**
      * Gets executed right after terminating the webdriver session.
      * @param {Object} config wdio configuration object
