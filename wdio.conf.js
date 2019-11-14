@@ -32,6 +32,9 @@ exports.config = {
             './test/check-box-test.js',
             './test/homepage-test.js',
             './test/switch-window-test.js'
+        ],
+        popupAndAlerts:[
+            './test/popupAlertsPage-test.js'
         ]
     },
     // Patterns to exclude.

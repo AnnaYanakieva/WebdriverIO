@@ -25,7 +25,7 @@ class ContactUsPage extends BasePage {
     }
 
     open() {
-        browser.setWindowSize(1800, 1200);
+        
         super.open('http://www.webdriveruniversity.com/Contact-Us/contactus.html');
     }
 
